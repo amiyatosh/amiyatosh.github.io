@@ -6,87 +6,222 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 40px;
-      line-height: 1.6;
-      background-color: #f9f9f9;
-    }
-    h1, h2 {
-      color: #2c3e50;
-    }
-    details {
+      margin: 40px 0 40px 0;
       background: #fff;
-      border: 1px solid #ccc;
-      padding: 10px 15px;
-      margin-bottom: 20px;
-      border-radius: 5px;
+      color: #222;
     }
-    summary {
-      font-weight: bold;
-      font-size: 1.2em;
-      cursor: pointer;
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 32px;
     }
     ul {
-      margin: 0;
-      padding-left: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      padding-left: 24px;
     }
     li {
-      margin-bottom: 10px;
+      margin-bottom: 18px;
+      font-size: 1.08em;
+      line-height: 1.7;
     }
-    .abstract {
+    a.title-link {
+      color: #1976d2;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    a.title-link:hover {
+      text-decoration: underline;
+    }
+    .pub-info {
+      color: #888;
       font-style: italic;
-      margin-top: 5px;
-      margin-left: 15px;
+      margin-left: 2px;
+    }
+    .preprint-link {
+      color: #1976d2;
+      font-size: 0.95em;
+      margin-left: 4px;
+      text-decoration: none;
+    }
+    .preprint-link:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <h1>Research Portfolio</h1>
-
-  <details open>
-    <summary>Working Papers</summary>
-    <ul>
-      <li>
-        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX"><strong>"How Do Government Guarantees Affect Deposit Supply?"</strong></a>, 2025, with Thomas Flanagan, Edward Kim, and Shohini Kundu<br>
-        <em>[Full Draft Coming Soon]</em>
-        <div class="abstract">
-          Abstract: The market value of deposit insurance changes over time and across banks... [shortened here for brevity—you can paste full abstract]
-        </div>
-      </li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"The Economics of Network-Based Deposit Insurance"</a>, 2024, with Edward Kim and Shohini Kundu.</li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"Shadows on Main Street: Mapping America's Financial Architecture from the Yellow Pages of 20th Century"</a>, 2023, with Taylor Begley and Virginia Traweek</li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"Judging Bank Risk by the Profits They Report"</a>, 2023, with Ben Meiselman and Stefan Nagel (R&R, Journal of Finance)</li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"United They Fall: Bank Risk After the Financial Crisis"</a>, 2022, with Priyank Gandhi (R&R, Review of Financial Studies)</li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"Can Cashless Payments Spur Economic Growth?"</a>, 2023, with Tamanna Singh Dubey</li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"Can Credit Rating Affect Credit Risk: Causal Evidence from an Online Lending Marketplace"</a>, 2023, with Alexander Wirth</li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"Carbon Emissions and Shareholder Value: Causal Evidence from the U.S. Power Utilities"</a>, 2022, with Mayank Kumar</li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"Corporate Bond Purchases After COVID-19: Who Did the Fed Buy and How Did the Markets Respond?"</a>, with Thomas Flanagan</li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"Why do banks hide losses?"</a>, with Thomas Flanagan</li>
+  <ul>
+    <h2>Working Papers</h2>
+    <li>
+      <a>How Do Government Guarantees Affect Deposit Supply?</a>
+      T. Flanagan, E. Kim, S. Kundu, A. Purnanandam <span class="pub-info">2025. [Full Draft Coming Soon]</span>
+    </li>
+    <li>
+      <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4813996">The Economics of Network-Based Deposit Insurance</a>
+      E. Kim, S. Kundu, A. Purnanandam<span class="pub-info">2024.</span>
+    </li>
+    <li>
+      <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4639955">Shadows on Main Street: Mapping America's Financial Architecture from the Yellow Pages of 20th Century</a>
+      T. Begley, A. Purnanandam, V. Traweek <span class="pub-info">2023.</span>
+    </li>
+    <li>
+      <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4562578">Judging Bank Risk by the Profits They Report</a>
+      B. Meiselman, S. Nagel, A. Purnanandam <span class="pub-info">2023. <em>R&R, Journal of Finance</em></span>
+    </li>
+    <li>
+      <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4091626">United They Fall: Bank Risk After the Financial Crisis</a>
+      P. Gandhi, A. Purnanandam <span class="pub-info">2022. <em>R&R, Review of Financial Studies</em></span>
+    </li>
+    <li>
+      <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4373602">Can Cashless Payments Spur Economic Growth?</a>
+      T. S. Dubey, A. Purnanandam <span class="pub-info">2023.</span>
+    </li>
+    <li>
+      <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4324527">Can Credit Rating Affect Credit Risk: Causal Evidence from an Online Lending Marketplace</a>
+      A. Purnanandam, A. Wirth <span class="pub-info">2023.</span>
+    </li>
+    <li>
+      <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4279945">Carbon Emissions and Shareholder Value: Causal Evidence from the U.S. Power Utilities</a>
+      M. Kumar, A. Purnanandam <span class="pub-info">2022.</span>
+    </li>
+    <li>
+      <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3668342">Corporate Bond Purchases After COVID-19: Who Did the Fed Buy and How Did the Markets Respond?</a>
+      T. Flanagan, A. Purnanandam <span class="pub-info">2022.</span>
+    </li>
+    <li>
+      <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3329953">Why do banks hide losses?</a>
+      T. Flanagan, A. Purnanandam <span class="pub-info">2022.</span>
+    </li>
     </ul>
-  </details>
-
-  <details>
-    <summary>Publications / Forthcoming Papers</summary>
     <ul>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"Did Banks Pay 'Fair' Returns to Taxpayers on TARP?"</a>, with Thomas Flanagan, <em>Journal of Finance</em>, 2024, 79, 2909-2941.<br>
-        <a href="#">Download the data on bank level TARP subsidy here.</a>
+    <h2>Published Papers</h2>
+    <li>
+      <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3595763">Did Banks Pay 'Fair' Returns to Taxpayers on TARP?</a>
+      T. Flanagan, A. Purnanandam <span class="pub-info">Journal of Finance, 2024, 79, 2909-2941.</span>
+      <a class="preprint-link" href="https://onlinelibrary.wiley.com/doi/10.1111/jofi.13367">(journal version)</a>
+    </li>
+    <li>
+      <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3145298">Disaster Lending: 'Fair Prices' but 'Unfair Access'</a>
+      T. Begley, U. Gurun, A. Purnanandam, D. Weagley <span class="pub-info">Management Science, 2024, 70(12), 8484-8505.</span>
+      <a class="preprint-link" href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2021.03199">(journal version)</a>
+    </li>
+    <li>
+      <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2816137">A High-dimensional Approach to Measure Connectivity in the Financial Sector</a>
+      S. Basu, S. Das, G. Michailidis, A. Purnanandam <span class="pub-info">Annals of Applied Statistics, 2024, 18(2): 922-945.</span>
+      <a class="preprint-link" href="https://projecteuclid.org/journals/annals-of-applied-statistics/volume-18/issue-2/A-high-dimensional-approach-to-measure-connectivity-in-the-financial/10.1214/22-AOAS1702.short">(journal version)</a>
+    </li>
+      <li>
+        <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2939923">Color and Credit: Race, Regulation and the Quality of Financial Services</a>
+        T. Begley, A. Purnanandam <span class="pub-info">Journal of Financial Economics, 2021, 48-65.</span>
+        <a class="preprint-link" href="https://www.sciencedirect.com/science/article/abs/pii/S0304405X2100091X">(journal version)</a>
       </li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"Disaster Lending: 'Fair Prices' but 'Unfair Access'"</a>, with Taylor Begley, Umit Gurun, and Daniel Weagley, <em>Management Science</em>, 2024, 70(12), 8484-8505.</li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"A High-dimensional Approach to Measure Connectivity in the Financial Sector"</a>, with Sumanta Basu, Sreyoshi Das and George Michailidis, <em>Annals of Applied Statistics</em>, 2024, 18(2): 922-945.</li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"Color and Credit: Race, Regulation and the Quality of Financial Services"</a>, with Taylor Begley, <em>Journal of Financial Economics</em>, 2021, 48-65.</li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"Banks' Risk Dynamics and Distance-to-Default"</a>, with Stefan Nagel, <em>Review of Financial Studies</em>, 2020, 2421-2467. <br>
-        <a href="#">Matlab Code</a> | <a href="#">Estimates of 5-year risk-neutral default probabilities</a>
+      
+      <li>
+        <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3383306">Banks' Risk Dynamics and Distance-to-Default</a>
+        S. Nagel, A. Purnanandam <span class="pub-info">Review of Financial Studies, 2020, 2421-2467.</span>
+        <a class="preprint-link" href="https://academic.oup.com/rfs/article-abstract/33/6/2421/5588854">(journal version)</a>
       </li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"Growth Option Exercise and Capital Structure"</a>, with Uday Rajan, <em>Review of Finance</em>, 2018, 207-241.</li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"The Strategic Under-reporting of Bank Risk"</a>, with Taylor Begley and KC Zheng, <em>Review of Financial Studies</em>, 2017, 30, 3376-3415.</li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"Design of Financial Securities: Empirical Evidence from Private-Label RMBS Deals"</a>, with Taylor Begley, <em>Review of Financial Studies</em>, 2017, 30, 120-161.</li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"Do Short Sellers Trade on Private Information or False Information"</a>, with Nejat Seyhun, <em>JFQA</em>, 2018, 53, 997-1023. <a href="#">Online Appendix</a></li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"Can Markets Discipline Government Agencies?"</a>, with Daniel Weagley, <em>Journal of Finance</em>, 2016, 71, 303-334.</li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"Seasoned Equity Offerings, Corporate Governance, and Investments"</a>, with Han Kim, <em>Review of Finance</em>, 2014, 18, 1023-1057.</li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"Originate-to-Distribute Model and the Sub-prime Mortgage Crisis"</a>, <em>Review of Financial Studies</em>, 2011, 24, 1881-1915.</li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"The effect of banking crisis on bank-dependent borrowers"</a>, with Sudheer Chava, <em>JFE</em>, 2011, 99, 116-135.</li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"CEOs vs. CFOs: Incentives and Corporate Policies"</a>, with Sudheer Chava, <em>JFE</em>, 2010, 97, 263-278.</li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"Is Default Risk Negatively Related to Stock Returns?"</a>, with Sudheer Chava, <em>Review of Financial Studies</em>, 2010, 23, 2523-2559.</li>
-      <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=XXXXXX">"Do Shareholders Rights Affect the Cost of Bank Loans?"</a>, with Sudheer Chava and Dmitri Livdan, <em>Review of Financial Studies</em>, 2009, 22, 2973-3004.</li>
-      <li><a href="https://papers.ssrn
-::contentReference[oaicite:13]{index=13}
+      
+      <li>
+        <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1960184">Growth Option Exercise and Capital Structure</a>
+        U. Rajan, A. Purnanandam <span class="pub-info">Review of Finance, 2018, 207-241.</span>
+        <a class="preprint-link" href="https://academic.oup.com/rof/article-abstract/22/1/177/2389567">(journal version)</a>
+      </li>
+      
+      <li>
+        <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2532623">The Strategic Under-reporting of Bank Risk</a>
+        T. Begley, A. Purnanandam, K. Zheng <span class="pub-info">Review of Financial Studies, 2017, 30, 3376-3415.</span>
+        <a class="preprint-link" href="https://academic.oup.com/rfs/article-abstract/30/10/3376/3753560">(journal version)</a>
+      </li>
+      
+      <li>
+        <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2022380">Design of Financial Securities: Empirical Evidence from Private-Label RMBS Deals</a>
+        T. Begley, A. Purnanandam <span class="pub-info">Review of Financial Studies, 2017, 30, 120-161.</span>
+        <a class="preprint-link" href="https://academic.oup.com/rfs/article-abstract/30/1/120/2669961">(journal version)</a>
+      </li>
+      
+      <li>
+        <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1004155">Do Short Sellers Trade on Private Information or False Information</a>
+        N. Seyhun, A. Purnanandam <span class="pub-info">Journal of Financial & Quantitative Analysis, 2018, 53, 997-1023.</span>
+        <a class="preprint-link" href="https://www.cambridge.org/core/journals/journal-of-financial-and-quantitative-analysis/article/abs/do-short-sellers-trade-on-private-information-or-false-information/0861CC5B8F2C817A17333AB03FE9923D">(journal version)</a>
+      </li>
+      
+      <li>
+        <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2139185">Can Markets Discipline Government Agencies? Evidence from the Weather Derivatives Market</a>
+        D. Weagley, A. Purnanandam <span class="pub-info">Journal of Finance, 2016, 71, 303-334.</span>
+        <a class="preprint-link" href=https://onlinelibrary.wiley.com/doi/abs/10.1111/jofi.12366">(journal version)</a>
+      </li>
+      
+      <li>
+        <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1823682">Seasoned Equity Offerings, Corporate Governance, and Investments</a>
+        H. Kim, A. Purnanandam <span class="pub-info">Review of Finance, 2014, 18, 1023-1057.</span>
+        <a class="preprint-link" href="https://academic.oup.com/rof/article-abstract/18/3/1023/1571800">(journal version)</a>
+      </li>
+      
+      <li>
+        <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1167786">Originate-to-Distribute Model and the Sub-prime Mortgage Crisis</a>
+        S. Chava, A. Purnanandam <span class="pub-info">Review of Financial Studies, 2011, 24, 1881-1915.</span>
+        <a class="preprint-link" href="https://academic.oup.com/rfs/article-abstract/24/6/1881/1584836">(journal version)</a>
+      </li>
+      
+      <li>
+        <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=821804">The effect of banking crisis on bank-dependent borrowers</a>
+        S. Chava, A. Purnanandam <span class="pub-info">Journal of Financial Economics, 2011, 99, 116-135.</span>
+        <a class="preprint-link" href="https://www.sciencedirect.com/science/article/abs/pii/S0304405X10001820">(journal version)</a>
+      </li>
+      
+      <li>
+        <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=989224">CEOs vs. CFOs: Incentives and Corporate Policies</a>
+        S. Chava, A. Purnanandam <span class="pub-info">Journal of Financial Economics, 2010, 97, 263-278.</span>
+        <a class="preprint-link" href="https://www.sciencedirect.com/science/article/abs/pii/S0304405X10000772">(journal version)</a>
+      </li>
+      
+      <li>
+        <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1003682">Is Default Risk Negatively Related to Stock Returns?</a>
+        S. Chava, A. Purnanandam <span class="pub-info">Review of Financial Studies, 2010, 23, 2523-2559.</span>
+        <a class="preprint-link" href="https://academic.oup.com/rfs/article-abstract/23/6/2523/1565368">(journal version)</a>
+      </li>
+      
+      <li>
+        <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=495853">Do Shareholders Rights Affect the Cost of Bank Loans?</a>
+        S. Chava, A. Purnanandam, D. Livdan <span class="pub-info">Review of Financial Studies, 2009, 22, 2973-3004.</span>
+        <a class="preprint-link" href="https://academic.oup.com/rfs/article-abstract/22/8/2973/1592671">(journal version)</a>
+      </li>
+      
+      <li>
+        <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=782425">Financial Distress and Corporate Risk Management: Theory & Evidence</a>
+        A. Purnanandam <span class="pub-info">Journal of Financial Economics, 2008, 87, 706-739.</span>
+        <a class="preprint-link" href="https://www.sciencedirect.com/science/article/abs/pii/S0304405X07002176">(journal version)</a>
+      </li>
+      
+      <li>
+        <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=389760">Interest Rate Derivatives at Commercial Banks: An Empirical Investigation</a>
+        A. Purnanandam <span class="pub-info">Journal of Monetary Economics, 2007, 54, 1769-1808.</span>
+        <a class="preprint-link" href="https://www.sciencedirect.com/science/article/abs/pii/S0304393206002285">(journal version)</a>
+      </li>
+      
+      <li>
+        <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=609621">Determinants of the Floating-to-Fixed Rate Debt Structure of Firms</a>
+        S. Chava, A. Purnanandam <span class="pub-info">Journal of Financial Economics, 2007, 85, 755-786.</span>
+        <a class="preprint-link" href="https://www.sciencedirect.com/science/article/abs/pii/S0304405X07000505">(journal version)</a>
+      </li>
+      
+      <li>
+        <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=281199">Are IPOs Really Underpriced?</a>
+        A. Purnanandam, B. Swaminathan <span class="pub-info">Review of Financial Studies, 2004, 17, 811-848.</span>
+        <a class="preprint-link" href="https://academic.oup.com/rfs/article-abstract/17/3/811/1612977">(journal version)</a>
+      </li>
+      
+      <li>
+        <a class="title-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=502565">Market Pricing of Deposit Insurance</a>
+        A. Purnanandam, D. Duffie, R. Jarrow, W. Yang <span class="pub-info">Journal of Financial Services Research, 2003, 24, 93-119.</span>
+        <a class="preprint-link" href="https://link.springer.com/article/10.1023/B:FINA.0000003319.53270.73">(journal version)</a>
+      </li>
+      
+      
+    <!-- Add more papers as needed, following the same structure -->
+  </ul>
+</body>
+</html>
  
