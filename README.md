@@ -4,3 +4,10 @@ Run the website locally on your computer at http://localhost:8000
 ```
 python -m http.server
 ```
+
+How to push the changes locally to github
+```
+git add . # Add the files
+git commit -m "New commit" # Commits the added files
+git push # Push the commit to github
+```
