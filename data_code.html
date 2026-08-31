@@ -1,14 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T82YEG1DNF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-T82YEG1DNF');
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data &amp; Code</title>
+  <meta name="description" content="Datasets and replication packages from Amiyatosh Purnanandam's research.">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px 0 40px 0;
+      background: #fff;
+      color: #222;
+    }
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+    .intro, .dataset {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 24px;
+      box-sizing: border-box;
+      line-height: 1.65;
+    }
+    .intro {
+      color: #555;
+      margin-bottom: 30px;
+    }
+    .dataset {
+      margin-bottom: 34px;
+      padding-top: 22px;
+      border-top: 1px solid #e3e6ea;
+    }
+    .dataset h2 {
+      color: #2c3e50;
+      font-size: 1.2em;
+      margin: 0 0 6px 0;
+    }
+    .paper-ref {
+      color: #666;
+      font-size: 0.95em;
+      margin: 0 0 12px 0;
+    }
+    .dataset p { margin: 0 0 12px 0; }
+    .cite-request {
+      background: #f7f8fa;
+      border: 1px solid #e3e6ea;
+      border-radius: 5px;
+      padding: 10px 12px;
+      font-size: 0.95em;
+      color: #333;
+      margin-bottom: 12px;
+    }
+    .cite-request .label {
+      display: block;
+      color: #888;
+      font-size: 0.9em;
+      margin-bottom: 4px;
+    }
+    .download a {
+      color: #1976d2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .download a:hover { text-decoration: underline; }
+    .filenote {
+      color: #888;
+      font-size: 0.9em;
+    }
+    a { color: #1976d2; }
+    .back {
+      display: block;
+      max-width: 800px;
+      margin: 36px auto 0 auto;
+      padding: 0 24px;
+      box-sizing: border-box;
+    }
+    .back a { text-decoration: none; }
+    .back a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
 
-    <h1>TARP Subsidy Bank Dataset</h1>
+  <h1>Data &amp; Code</h1>
 
-    <h2>Dataset Details</h2>
+  <p class="intro">
+    Datasets and replication packages from my published work. If you use any of
+    these, please cite the paper the material comes from.
+  </p>
 
-    The dataset contains the estimated subsidies banks received from the TARP capital injection, as detailed in Flanagan and Purnanandam (2024). 
-    The dataset contains subsidies on a bank-by-bank basis for the entire sample of banks receiving 
-    preferred equity injections from TARP. If you use any part of the data, we kindly ask you to cite the paper on which this work was based:
-<br> <br>
-    Flanagan, Thomas, and Amiyatosh Purnanandam. "Did Banks Pay Fair Returns to Taxpayers on TARP?." Journal of Finance, 79, no. 5 (2024): 2909-2941
-<br>
+  <!-- ============================================================
+       DATASET ENTRY TEMPLATE — copy one block to add another.
+       ============================================================ -->
 
-    Click <a href="https://www.dropbox.com/scl/fi/g1o31iytltq689hrxsn3w/FP_JF_data_web.xls?rlkey=224qzq4mlabntkhf24e5gl18g&e=1&dl=0" here</a> to download the dataset.
+  <div class="dataset">
+    <h2>Replication package: United They Fall</h2>
+    <p class="paper-ref">
+      Gandhi, P., and A. Purnanandam. &ldquo;United They Fall: Bank Risk After the
+      Financial Crisis.&rdquo; Conditionally accepted, <em>Review of Financial Studies</em>.
+    </p>
+    <p>
+      Replication data and code for the paper, deposited at the Harvard Dataverse
+      under DOI <a href="https://doi.org/10.7910/DVN/GOXYYT">10.7910/DVN/GOXYYT</a>.
+    </p>
+    <div class="cite-request">
+      <span class="label">If you use these materials, please cite:</span>
+      Gandhi, Priyank, and Amiyatosh Purnanandam. &ldquo;United They Fall: Bank Risk
+      After the Financial Crisis.&rdquo; <em>Review of Financial Studies</em>, forthcoming.
+    </div>
+    <p class="download">
+      <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/GOXYYT">Download from Harvard Dataverse</a>
+      <span class="filenote">&nbsp;(RFS_Dataverse.zip, about 693 MB)</span>
+    </p>
+  </div>
+
+  <div class="dataset">
+    <h2>Bank default risk estimates and MATLAB code</h2>
+    <p class="paper-ref">
+      Nagel, S., and A. Purnanandam. &ldquo;Banks&rsquo; Risk Dynamics and
+      Distance-to-Default.&rdquo; <em>Review of Financial Studies</em>, 2020, 33(6), 2421&ndash;2467.
+    </p>
+    <p>
+      MATLAB code implementing the model, together with estimates of five-year
+      risk-neutral default probabilities for individual U.S. banks from 1987 to 2016.
+    </p>
+    <div class="cite-request">
+      <span class="label">If you use these materials, please cite:</span>
+      Nagel, Stefan, and Amiyatosh Purnanandam. &ldquo;Banks&rsquo; Risk Dynamics and
+      Distance-to-Default.&rdquo; <em>Review of Financial Studies</em> 33, no. 6 (2020): 2421&ndash;2467.
+    </div>
+    <p class="download">
+      <a href="https://voices.uchicago.edu/stefannagel/code-and-data/">Available on Stefan Nagel&rsquo;s code and data page</a>
+    </p>
+  </div>
+
+  <div class="dataset">
+    <h2>TARP subsidy bank dataset</h2>
+    <p class="paper-ref">
+      Flanagan, T., and A. Purnanandam. &ldquo;Did Banks Pay &lsquo;Fair&rsquo; Returns
+      to Taxpayers on TARP?&rdquo; <em>Journal of Finance</em>, 2024, 79, 2909&ndash;2941.
+    </p>
+    <p>
+      Estimated subsidies banks received from the TARP capital injection, bank by
+      bank, for the entire sample of banks that received preferred equity
+      injections from TARP.
+    </p>
+    <div class="cite-request">
+      <span class="label">If you use any part of the data, please cite:</span>
+      Flanagan, Thomas, and Amiyatosh Purnanandam. &ldquo;Did Banks Pay Fair Returns
+      to Taxpayers on TARP?&rdquo; <em>Journal of Finance</em> 79, no. 5 (2024): 2909&ndash;2941.
+    </div>
+    <p class="download">
+      <a href="https://www.dropbox.com/scl/fi/g1o31iytltq689hrxsn3w/FP_JF_data_web.xls?rlkey=224qzq4mlabntkhf24e5gl18g&amp;e=1&amp;dl=0">Download the dataset</a>
+      <span class="filenote">&nbsp;(FP_JF_data_web.xls)</span>
+    </p>
+  </div>
+
+  <p class="back"><a href="index.html">Back to Main Page</a></p>
+
+</body>
+</html>
